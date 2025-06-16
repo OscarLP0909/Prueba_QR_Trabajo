@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba Escaneo QR</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class ="div1">
+  <h1>Prueba Escaneo QR</h1>
+  <p>Haz clic en el botón de abajo para comenzar el escaneo.</p>
+  </div>
+  <button id="startButton">Realizar Entrada</button>
+   <script>
+    document.getElementById("startButton").addEventListener("click", function() {
+    window.location.href = "camara_QR.html";
+});
+  </script>
+  <button id="salidaBtn">Realizar Salida</button>
+  <script>
+    document.getElementById("salidaBtn").addEventListener("click", function() {
+      window.location.href = "salida.html";
+    });
+    </script>
+</body>
+</html>
